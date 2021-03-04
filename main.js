@@ -4,6 +4,9 @@ const {
     Menu, 
     ipcMain} = require('electron');
 
+// Set app to production mode
+process.env.NODE_ENV = 'production';
+
 let win, addWin;
 
 // Launch app
